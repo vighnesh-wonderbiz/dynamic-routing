@@ -1,0 +1,15 @@
+<div>
+  <input
+    value="demoTest@mail.com"
+    [(ngModel)]="user.email"
+    type="email"
+    name="email"
+  />
+  <input
+    value="Test@1234"
+    [(ngModel)]="user.password"
+    type="password"
+    name="password"
+  />
+  <button type="submit" (click)="onSubmit()">submit</button>
+</div>
